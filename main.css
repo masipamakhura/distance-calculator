@@ -1,0 +1,73 @@
+
+/*Css Reset*/
+*,
+*::after,
+*::before {
+
+padding: 0;
+margin: 0;
+
+}
+html{
+ padding-top: 10px;
+}
+body{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: 1px solid #ccc;
+width: 1000px;
+margin:0 auto;
+padding:5% 0;
+
+
+}
+
+main{
+margin-top:20px;
+}
+/*Header*/
+
+.main-heading{
+
+display: block;
+text-align: center;
+ 
+}
+.primary-heading{
+font-weight: 100;
+font-size: 3.5em;
+color:green;
+}
+
+/*form*/
+form{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.app{
+
+padding:10px 50px;
+}
+form label{
+display:block;
+padding:5px;
+}
+.solution{
+display:block;
+text-align:center;
+}
+
+.cta{
+padding:10px;
+float:left;
+padding:10px 20px;
+margin:5px 10px;
+
+}
+.row{
+display:flex;
+flex-direction:row;
+justify-content: center;
+width:50%;
+margin-top: 40px;
+}
